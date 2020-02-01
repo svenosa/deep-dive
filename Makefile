@@ -1,5 +1,5 @@
 all:
-	dasm *.asm -f3 -v0 -ocard.bin
+	dasm deepdive.asm -f3 -v0 -ocard.bin
 
 run:
-	stella cart.bin
+	stella card.bin
